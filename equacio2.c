@@ -1,0 +1,17 @@
+#include <stdio.h>
+void main(){
+    int a, b, c, discriminant;
+    printf("Donam a: ");
+    scanf(%d ,%a);
+    printf("Donam b: ");
+    scanf(%d ,%b);
+    printf("Donam c: ");
+    scanf(%d ,%c);
+    if(a==0) printf("No és de 2n grau!!");
+    else{
+        discriminant=a(b*b)-(4*a*c);
+        if(discriminant>0) printf("2 sol\b")
+        if(discriminant=0) printf("1 sol\b")
+        if(discriminant<0) printf("No sol real\b")
+    }
+    return;
