@@ -1,9 +1,3 @@
-/****************************************************************
- * La calculadora amb un menú per a + - * i /                   *
- * Xavi Blanes curs: 25/26                                      *
- * Completa el codi...                                          *
- * *************************************************************/
-
 #include <stdio.h>
 
 int sumar(int a, int b)
